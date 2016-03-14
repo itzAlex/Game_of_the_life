@@ -5,8 +5,6 @@ import random
 import itertools
 import os, time
 
-UNIX = True
-
 clear = lambda: os.system('clear')
 
 class GameOfLife(object):
