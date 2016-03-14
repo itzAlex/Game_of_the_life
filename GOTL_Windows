@@ -61,7 +61,7 @@ def main():
 	print("Welcome to the game of the life")
 	print("..............................")
 	
-	filas, columnas = int(input("Filas -- ")), int(input("Columnas -- "))
+	filas, columnas = int(input("Rows -- ")), int(input("Columns -- "))
 	
 	juego = GameOfLife(filas, columnas)
 	
